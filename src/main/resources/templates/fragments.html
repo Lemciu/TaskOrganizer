@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Fragments</title>
+</head>
+<body>
+<div th:fragment="nav" class="nav">
+    <a th:href="@{/}">
+        <button class="btn">Nadchodzące</button>
+    </a>
+    <a th:href="@{/?finished=true}">
+        <button class="btn">Archiwum</button>
+    </a>
+    <a th:href="@{/add-task}">
+        <button class="btn">Dodaj zadanie</button>
+    </a>
+</div>
+<div th:fragment="footer" class="footer">
+    <p>Copyright © 2022 No Name</p>
+</div>
+</body>
+</html>

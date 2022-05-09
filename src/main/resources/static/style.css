@@ -1,0 +1,77 @@
+body {
+    background-color: #2a3132;
+}
+.editTask button {
+    background-color: #763626;
+}
+.center {
+    margin: 40px 15% 25px;
+}
+.nav {
+    background-color: #763626;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.nav button {
+    background-color: #763626;
+    border-color: #763626;
+}
+.form-control {
+    background-color: #2a3132;
+    color: white;
+    margin-bottom: 20px;
+}
+.form-control::placeholder {
+    color: white;
+}
+.form-control:focus {
+    background-color: #2a3132;
+    color: white;
+}
+.btn {
+    transition-duration: 0.4s;
+    color: white;
+}
+#buttonPlus {
+    color: #763626;
+}
+#completeButton:hover span {
+    display:none
+}
+#completeButton:hover::after {
+    content: url("https://img.icons8.com/external-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto/35/000000/external-check-multimedia-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto.png");
+}
+.btn:hover {
+    background-color: #763626;
+    color: #90afc5;
+}
+table {
+    background-color: #763626;
+}
+table tr {
+    height: 75px;
+    border-color: white;
+    vertical-align: middle;
+}
+table td {
+    height: 75px;
+    border-color: white;
+    border-width: 0px;
+}
+.tableHead {
+    color: white;
+    height: 50px;
+}
+.footer {
+    background-color: #763626;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 30px;
+}
+.footer p {
+    color: white;
+}
